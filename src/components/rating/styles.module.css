@@ -1,0 +1,23 @@
+.rating {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.rating__img {
+    width: 400px;
+}
+
+.rating__actions {
+    display: flex;
+    gap: 10px;
+}
+
+.rating__btn {
+    width: 70px;
+    height: 28px;
+    background-color: rgb(251, 205, 121);
+    border: none;
+    border-radius: 5px;
+}
