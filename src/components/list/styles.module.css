@@ -1,0 +1,19 @@
+.list_container {
+    padding: 20px;
+}
+
+.list {
+    padding-left: 0;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list>li {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+}
